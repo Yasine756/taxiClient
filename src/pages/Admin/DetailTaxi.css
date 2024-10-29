@@ -1,0 +1,108 @@
+/* detailTaxi.css */
+.detailTaxi {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f3f4f6;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 700px;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border-radius: 8px 8px 0 0;
+  color: white;
+}
+
+.header img {
+  width: 50px;
+  cursor: pointer;
+}
+
+.subContainer h1, .subContainer h2 {
+  margin: 0;
+}
+
+.subContainer h1 {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.subContainer h2 {
+  font-size: 1.5em;
+  color: #fdd835;
+  margin-top: 5px;
+}
+
+.infoSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 0 0 8px 8px;
+}
+
+.info p {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  margin: 10px 0;
+  color: #333;
+}
+
+.info strong {
+  color: #007bff;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.actions button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#pdfButton {
+  background-color: #d32f2f;
+}
+
+.historyButton {
+  background-color: #1976d2;
+}
+
+.phoneButton {
+  background-color: #388e3c;
+}
+
+.actions button:hover {
+  filter: brightness(0.9);
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9em;
+  color: #777;
+}

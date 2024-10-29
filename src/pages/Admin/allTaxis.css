@@ -1,0 +1,96 @@
+/* Styles de base pour le corps et les polices */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    font-weight: bolder;
+}
+
+/* En-tête avec logo et titre */
+img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    text-align: center;
+}
+span{
+    color: red;
+}
+#eye{
+    color: blue;
+}
+#modify{
+    color: rgb(4, 187, 4);
+}
+#delete{
+    color:red;
+}
+/* Styles pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #89898a;
+    text-align: center;
+    padding: 8px;
+    background-color: #ffffff;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Icônes d'action dans le tableau */
+.fa, .md {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.fa:hover, .md:hover {
+    color: #3498db;
+}
+
+.fa-user-edit:hover {
+    color: #f1c40f;
+}
+
+.md-delete:hover {
+    color: #e74c3c;
+}
+
+/* Responsivité pour petits écrans */
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    th, td {
+        text-align: right;
+    }
+
+    td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    td:last-child {
+        border-bottom: 0;
+}
+}

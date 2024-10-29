@@ -1,0 +1,94 @@
+.modifier-taxi-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .taxi-header {
+    margin-bottom: 20px;
+  }
+  
+  .logo, .taxi-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .taxi-info p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .modifier-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .modifier-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 480px) {
+    .modifier-taxi-container {
+      padding: 10px;
+    }
+  
+    .modifier-btn {
+      padding: 8px 16px;
+    }
+  }
+  .modifier-taxi-container {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .taxi-header {
+    margin-bottom: 20px;
+  }
+  
+  .logo, .taxi-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .taxi-info input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  
+  .modifier-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .modifier-btn:hover {
+    background-color: #0056b3;
+}

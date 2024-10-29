@@ -1,0 +1,238 @@
+/* General container */
+.pompiste-home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 375px; 
+    margin: auto;
+
+  }
+  
+  /* Header styles */
+  .pompiste-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .af-logo {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .pompiste-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pompiste-icon {
+    width: 40px;
+    height: 45px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  /* Buttons container */
+  .pompiste-buttons-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+  
+  /* Button styles */
+  .pompiste-button {
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 25px;
+    
+    color: black;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.7s;
+    
+  }
+  
+  /* Specific button colors */
+  .ajouter-taxi {
+    background-color: #EEC947;
+   
+  }
+  
+  .consulter-compte {
+    background-color: #CFFF54;
+  }
+  
+  .remplir {
+    background-color: #E77983;
+  }
+  
+  /* Footer styles */
+  .pompiste-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .pompiste-refresh-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+
+/* ---------------  AddTaxi.css  -------- */
+
+.pompiste-image_section{
+    margin-top: 60px;
+    width: 160px;
+    height: 160px;
+}
+.pompiste-form-container{
+    margin-top: 20px;
+}
+
+.pompiste-input_ajout{
+    font-size:17px ;
+    height: 30px;
+
+}
+table{
+    margin-bottom: 10px;
+}
+.ajouter-taxi_info{
+    background-color: #EEC947;
+    margin-top: 15px;
+}
+
+/* ---------- ConsulataionCompte.css */
+.consulter-image_section{
+  margin-top: 30px;
+  width: 260px;
+}
+.pompiste-date{
+   margin-left:240px ;
+   margin-top: 30px;
+}
+.pompiste-form-matricule{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: -30px;
+    gap: 20px;
+    align-items: center;
+    margin-top: 40px;
+
+}
+.pompiste-input_search{
+    font-size: 25px;
+    height: 40px;
+    
+   
+}
+.pompiste-search_image{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.NotFound-image_section{
+  margin-top: 30px;
+}
+.h4_consultation{
+  margin-top: -10px;
+  margin-bottom: 50px;
+}
+.solde_div{
+  border: 2px solid black;
+  width: 300px;
+  height: 50px;
+  border-radius: 30px;
+}
+.solde_div p{
+  text-align: center;
+  color: green;
+  font-size: 16px;
+  font-weight: bold;
+}
+.solde-image_section{
+  width: 180px;
+  height: 160px;
+  margin-top: -10px;
+  margin-bottom: -20px;
+}
+/* -------------- remplir.css */
+.pompiste-form-remplir{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+
+/* ------- css pour redux CRUD de pompiste ------------- */
+.pompiste-redux-form-container{
+  margin-top: 50px;
+  height: 390px;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-bottom: -60px;
+}
+.button_ajoute_pompiste{
+  margin-top: 70px;
+  margin-right: 120px;
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 20px;
+  border: none;
+  background-color: #F0B21E;
+  
+}
+.table_crud{
+ width: 100%;
+
+}
+
+.edit_button{
+  font-size: 30px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  
+}
+.edit_button  :hover{
+  background-color:blanchedalmond;
+}
+.delete_button{
+  font-size: 30px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.delete_button :hover{
+  background-color:blanchedalmond;
+}
+.pompiste-image_crud{
+  margin-top: 17px;
+}
+
+
+
+/* ----------------- admin ------------------ */
+.admin-h3{
+  margin-right: 200px;
+  margin-top: 20px;
+}

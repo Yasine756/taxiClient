@@ -1,0 +1,109 @@
+/* Container principal */
+#board-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  #board-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -10%;
+  }
+  
+  #logoBoard {
+    width: 80px; /* Ajustez selon la taille souhaitée */
+    margin-bottom: 10px;
+  }
+  
+  #board-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+  }
+  
+  /* Boutons */
+  #board-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espacement entre les boutons */
+  }
+  
+  .board-button {
+    padding: 15px;
+    font-size: 16px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .board-button:hover {
+    background-color: lightgray; /* Couleur au survol */
+  }
+  
+  /* Footer */
+  #board-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #board-footer span {
+    font-size: 14px;
+  }
+  
+  #refresh-icon {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* ----------- Responsivité pour les mobiles -------------- */
+  @media (max-width: 768px) {
+    
+    #board-header h1 {
+      font-size: 20px;
+      margin-top: 5px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+  
+    .board-button {
+        position: relative;
+        padding: 15px 30px;
+        font-size: 20px;
+        font-weight: bolder;
+        color:#000000;
+        background-color: rgb(255, 174, 97);
+        border: 2px solid black;
+        overflow: hidden;
+        cursor: pointer;
+        text-align: center;
+        padding: 20px;
+         z-index:0;
+    }
+    .board-button::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(253, 205, 160);
+        clip-path: polygon(0 0, 100% 0, 0 100%);
+        z-index: -1; /* Assurez-vous que le texte reste visible par-dessus */
+    }
+  
+    #refresh-icon {
+      font-size: 20px;
+}
+}
